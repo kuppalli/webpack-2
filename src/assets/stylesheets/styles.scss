@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+$PT_Sans : 'PT Sans', sans-serif;
+$brand_purple: rgb(135, 140, 223);
+$brand_green: rgb(153, 251, 198);
+
+body {
+    background-color: $brand_purple;
+    font-family: $PT_Sans;
+    color: $brand_green;
+    font-size: 1.2rem;
+}
