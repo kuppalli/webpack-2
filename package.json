@@ -9,12 +9,7 @@
     "production": "NODE_ENV=production webpack",
     "test": "jasmine"
   },
-  "keywords": [
-    "ES6",
-    "Webpack2",
-    "Babel",
-    "SCSS"
-  ],
+  "keywords": ["ES6", "Webpack2", "Babel", "SCSS"],
   "author": "Sridhar Narayanaswamy",
   "license": "ISC",
   "devDependencies": {
