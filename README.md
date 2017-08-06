@@ -4,10 +4,13 @@
 
 * Convert ES6 to ES5 using babel loader
 * Convert SCSS to CSS
-* Extract CSS file using `extract-text-webpack-plugin`
+* Extract CSS file separately using `extract-text-webpack-plugin`
 * Post CSS processing
 * Webpack Dev Server
 * Production build with minification of CSS and JS
+* Image optimization
+
+    _**Note:** this Image optimization might not work on certain OS. Comment out the block `image-webpack-loader` in `webpack.config.js`_
 
 #### How to Run?
 Clone the repo and do the npm install 
