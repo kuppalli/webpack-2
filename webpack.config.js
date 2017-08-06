@@ -35,7 +35,7 @@ let config = {
                 exclude: /node_modules/,
                 //loader: ['style-loader', 'css-loader', 'sass-loader']
                 use: ['css-hot-loader'].concat(ExtractTextWebpackPlugin.extract({
-                    use: ['css-loader', 'sass-loader'],
+                    use: ['css-loader', 'sass-loader', 'postcss-loader'],
                     fallback: 'style-loader'
                 }))
             },
@@ -73,7 +73,8 @@ let config = {
         contentBase: path.resolve(__dirname, './public'),
         historyApiFallback: true,
         inline: true,
-        open: true
+        open: true,
+        openPage: ''
     }
 
 }

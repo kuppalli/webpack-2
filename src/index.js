@@ -15,8 +15,6 @@ setInterval(ticker, 1000);
 
 console.log("hello webpack, i am watching for changes now");
 
-
-
 // test if the ES6 is working
 
 // const dress = () => {
