@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack --progress",
     "start": "webpack --progress && webpack-dev-server -d --hot --config webpack.config.js --watch --progress",
-    "production": "NODE_ENV=production webpack",
+    "production": "NODE_ENV=production webpack --progress",
     "test": "jasmine"
   },
   "keywords": [
