@@ -11,6 +11,7 @@
 * Image optimization
 
     _**Note:** this Image optimization might not work on certain OS. Comment out the block `image-webpack-loader` in `webpack.config.js`_
+* Spread operator support `{...}` [more info](http://redux.js.org/docs/recipes/UsingObjectSpreadOperator.html)
 
 #### How to Run?
 Clone the repo and do the npm install 
