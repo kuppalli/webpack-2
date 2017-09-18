@@ -21,3 +21,8 @@ console.log("hello webpack, i am watching for changes now");
 //     document.write('sample message printing here');
 // }
 // dress();
+
+//test the spread operator
+var parts = ['shoulders', 'knees']; 
+var lyrics = ['head', ...parts, 'and', 'toes']; 
+console.log(lyrics);

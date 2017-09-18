@@ -1,4 +1,13 @@
-{ 
-  "presets": ["es2015", "react"],
-  "plugins": ["transform-object-rest-spread"]
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": "> 5%"
+        }
+      }
+    ],
+    "react"
+  ]
 }
